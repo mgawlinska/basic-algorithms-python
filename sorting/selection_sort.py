@@ -42,10 +42,10 @@ def selection_sort(array):
 
         print(f"Selection sort. Pass: {i + 1} list: {array}")
 
-list_lenght = 10
+list_length = 10
 factor = 10
 
-to_sort = [randint(0, list_lenght * factor) for x in range(list_lenght)]
+to_sort = [randint(0, list_length * factor) for x in range(list_length)]
 
 print(f"Array: {to_sort}")
 

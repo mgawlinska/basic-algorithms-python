@@ -55,7 +55,7 @@ def bubble_sort_early_stop(to_sort: list):
             break
         print(f"Bubble sort with early stop. Pass: {i + 1} list: {to_sort}")
 
-list_lenght = 10
+list_length = 10
 factor = 10
 
 to_sort = [randint(0, list_lenght * factor) for x in range(list_lenght)]
